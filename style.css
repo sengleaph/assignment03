@@ -138,7 +138,7 @@ section{
     width: 400px;
     height: 400px;
 }
-/* About */
+
 .about{
     width: 90%;
     height: auto;
@@ -148,46 +148,38 @@ section{
     margin: 20px auto;
 }
 
-.about div{
+.setting div{
     display: inline-block;
     text-align: center;
     margin: 10px 10px;
 }
 
-.about img{
+.setting img{
     width: 400px;
     height: 350px;
 }
 
-.about-text{
+.setting-box{
     width: 300px;
     color: rgb(0, 0, 129);
     font-weight: 700;
 }
 
-.about-text button{
+.setting-box button{
     border: 0;
     color: rgb(0, 0, 129);
     font-weight: 700;
     cursor: pointer;
 }
 
-/* Menu */
-.menu{
-    width: 90%;
-    height: 100%;
-    margin: auto;
-    background-color: whitesmoke;
-}
 
-.menu-box{
+.setting{
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
-
 .item{
     color: rgb(0, 0, 129);
     width: 400px;
